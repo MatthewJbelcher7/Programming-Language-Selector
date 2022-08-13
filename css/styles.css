@@ -1,7 +1,23 @@
-> let h1 = document.querySelector("h1");
-> h1;
-<h1 id="specialHeader">Best Chocolate Chip Cookies</h1>
-> h1.tagName;
-"h1"
-> Object.prototype.toString.call(h1);   // notice that we pass in h1 as the argument to .call()
-'[object HTMLHeadingElement]'
+.q1{
+  display: block;
+}
+
+.q2{
+  display: none
+}
+
+.q3{
+  display: none
+}
+
+.q4{
+  display: none
+}
+
+.q5{
+  display: none
+}
+
+.end{
+  display:none
+}
