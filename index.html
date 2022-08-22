@@ -12,51 +12,92 @@
   </header>
 
     <div class="survey">
-      <div class="q1">
-        <h3> Where should we begin</h3>
-        <ul class="possiblity1">
-          <li>C#</li>
-          <li>Javascript</li>
-          <li>Python</li>
-        </ul>
-      </div>   
-    
-    <div class="q2">
-      <h3> How nerdy are you?</h3>
-      <ul class="possiblity2">
-        <li>I like to game</li>
-        <li>I live for the internet</li>
-        <li>Whoaaa nerdy? IM just dipping my toes...</li>
-      </ul>
-    </div>
-    <div class="survey">
-      <div class="q3">
+      <form id="question1">
+        <label>
+          <h3>What experince do you have?</h3>
+          <input type="radio" name="q1" value="C#" checked>
+          C#
+        </label><br>
+        <label>
+          <input type="radio" name="q1" value="JavaScript">
+          JavaScript
+        </label><br>
+        <label>
+          <input type="radio" name="q1" value="Python">
+          Python
+        </label><br>
+        <button type="submit">Submit Selection</button>
+      </form>
+      <form id="question2">
+        <h3> How nerdy are you?</h3>
+        <label>
+          <input type="radio" name="q2" value="I like to game." checked>
+          I like to game.
+        </label><br>
+        <label>
+          <input type="radio" name="q2" value="I live for the internet.">
+          I live for the internet.
+        </label><br>
+        <label>
+          <input type="radio" name="q2" value="Nerdy? I'm just dipping my toes...">
+          Nerdy? I'm just dipping my toes...
+        </label><br>
+        <button type="submit">Submit Selection</button>
+      </form>
+      <form id="q3">
         <h3> Which home pet is the best?</h3>
-        <ul class="possiblity3">
-          <li>Cat</li>
-          <li>Dog</li>
-          <li>Bird</li>
-        </ul>
-      </div> 
-    </div> 
-    <div class="survey">
-      <div class="q4">
+        <label>
+          <input type="radio" name="q3" value="Cat" checked>
+          Cat
+        </label><br>
+        <label>
+          <input type="radio" name="q3" value="Dog">
+          Dog
+        </label><br>
+        <label>
+          <input type="radio" name="q3" value="Bird">
+          Bird
+        </label><br>
+        <button type="submit">Submit Selection</button>
+      <form id="radio-form">
         <h3> Who has the best superhero franchise</h3>
-        <ul class="possiblity4">
-          <li>Marvel</li>
-          <li>DC</li>
-          <li>M. Night Shyamalan</li>
-        </ul>
-      </div> 
+        <label>
+          <input type="radio" name="q4" value="Marvel" checked>
+          Marvel
+        </label><br>
+        <label>
+          <input type="radio" name="q4" value="DC">
+          DC
+        </label><br>
+        <label>
+          <input type="radio" name="q4" value="">
+          M. Night Shymamalan
+        </label><br>
+        <button type="submit">Submit Selection</button>
       <div class="survey">
         <div class="q5">
-          <h3> Pinapple on pizza?</h3>
+          
           <ul class="possiblity5">
             <li>Yes</li>
             <li>No</li>
             <li>Pizza on Pinapple</li>
           </ul>
         </div> 
+        <form id="radio-form">
+          <h3> Pineapple on pizza?</h3>
+          <label>
+            <input type="radio" name="q5" value="Yes" checked>
+            Yes
+          </label><br>
+          <label>
+            <input type="radio" name="q5" value="No">
+            No
+          </label><br>
+          <label>
+            <input type="radio" name="q5" value="Pizza on Pineapple">
+            Pizza on Pineapple
+          </label><br>
+          <button type="submit">Submit Selection</button>
       </div>
     </div>
   </div class="Fin">
