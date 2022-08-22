@@ -14,7 +14,7 @@
 
 ## Description
 
-_This is demonstration of what we have learned in week on and a location to call back to for futute and past projects_
+_This is demonstration of what we have learned in week on and a location to call back to for future and past projects_
 
 ## Setup/Installation Requirements
 
