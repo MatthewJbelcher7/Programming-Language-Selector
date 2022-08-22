@@ -2,58 +2,65 @@
 <html lang="en-US">
 <head>
   <link rel="stylesheet" href="css/styles.css" type="text/css">
-  <script src="js/scripts.js"></script>
   <title>Developer Survey</title>
 </head>
 <body>
   <header>
-    <h1> Upcoming Developer Survey</h1>
+    <h1> Upcoming Developer Suvery</h1>
     <p>Tell Us a Bit About Your direction!</p>
   </header>
-      <div class = "Quiz" name ="quiz">
-        <label>
-          <h3>What experince do you have?</h3>
-          <input id="rd1" type="radio" name="q1" value="C#" checked>
-          C#
-        </label><br>
-        <label>
-          <input type="radio" name="q1" value="JavaScript">
-          JavaScript
-        </label><br>
-        <label>
-          <input type="radio" name="q1" value="Python">
-          Python
-        </label><br>
-        <button onclick="type=submit">Submit Selection</button>
-        <h3> How nerdy are you?</h3>
-        <label>
-          <input type="radio" name="q2" value="I like to game." checked>
-          I like to game.
-        </label><br>
-        <label>
-          <input type="radio" name="q2" value="I live for the internet.">
-          I live for the internet.
-        </label><br>
-        <label>
-          <input type="radio" name="q2" value="Nerdy? I'm just dipping my toes...">
-          Nerdy? I'm just dipping my toes...
-        </label><br>
-        <button type="submit">Submit Selection</button>
+
+    <form id="survey">
+      <h3> What experience do we have?</h3>
+      <label>
+        <input type="radio" name="q1" value="C#" checked>
+        C#
+      </label><br>
+      <label>
+        <input type="radio" name="q1" value="Javascript">
+        Javascript
+      </label><br>
+      <label>
+        <input type="radio" name="q1" value="Python">
+        Python
+      </label><br>
+      <button type="submit">Submit Selection</button>
+    </form>
+
+    <form id="survey">
+      <h3> How nerdy are we?</h3>
+      <label>
+        <input type="radio" name="q2" value="I like to game" checked>
+        I like to game
+      </label><br>
+      <label>
+        <input type="radio" name="q2" value="I live for the internet">
+        I live for the internet
+      </label><br>
+      <label>
+        <input type="radio" name="q2" value="Nerdy? Im just dipping my toes...">
+        Nerdy? Im just dipping my toes...
+      </label><br>
+      <button type="submit">Submit Selection</button>
+      </form>
+      <form id="survey">
         <h3> Which home pet is the best?</h3>
         <label>
-          <input type="radio" name="q3" value="Cat" checked>
-          Cat
+          <input type="radio" name="q3" value="Dog" checked>
+          Dog
         </label><br>
         <label>
-          <input type="radio" name="q3" value="Dog">
-          Dog
+          <input type="radio" name="q3" value="Cat">
+          Cat
         </label><br>
         <label>
           <input type="radio" name="q3" value="Bird">
           Bird
         </label><br>
         <button type="submit">Submit Selection</button>
-        <h3> Who has the best superhero franchise</h3>
+      </form>
+      <form id="survey">
+        <h3> Who has the best superhero franchise?</h3>
         <label>
           <input type="radio" name="q4" value="Marvel" checked>
           Marvel
@@ -63,27 +70,31 @@
           DC
         </label><br>
         <label>
-          <input type="radio" name="q4" value="">
-          M. Night Shymamalan
+          <input type="radio" name="q4" value="M. Night Shyamalan">
+          M. Night Shyamalan
         </label><br>
         <button type="submit">Submit Selection</button>
+        </form> 
+        <form id="survey">
           <h3> Pineapple on pizza?</h3>
           <label>
-            <input type="radio" name="q5" value="Yes" checked>
+            <input type="radio" name="q4" value="Yes" checked>
             Yes
           </label><br>
           <label>
-            <input type="radio" name="q5" value="No">
+            <input type="radio" name="q4" value="No">
             No
           </label><br>
           <label>
-            <input type="radio" name="q5" value="Pizza on Pineapple">
-            Pizza on Pineapple
+            <input type="radio" name="q4" value="Pizza on pineapple?">
+            Pizza on pineapple?
           </label><br>
           <button type="submit">Submit Selection</button>
-      </form>
+        </form> 
+    </div>
+    <div id="awnser">
   </div class="Fin">
     <h1>Hope we have helped you today</h1>
-  
+<script src="js/scripts.js"></script>
 </body>
 </html>
